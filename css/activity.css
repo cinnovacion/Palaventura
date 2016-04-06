@@ -1,0 +1,470 @@
+@font-face {
+  font-family: lobster;
+  src: url(../images/lobster.otf) format("opentype");
+}
+
+body {
+  font-size: 20px;
+}
+
+#main-toolbar #activity-button {
+  background-image: url(../activity/activity-icon.svg);
+}
+
+#canvas {
+  margin-right: 0;
+  margin-left: 0;
+  background: url(../images/bg_general.png) no-repeat 0 0;
+}
+
+#box-game {
+  position: absolute;
+  left: 350px;
+  top: 170px;
+  width: 500px;
+  text-align: center;
+  background-color: #f4f5f7;
+  border-radius: 30px;
+}
+
+#character {
+  width: 600px;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+
+#character h2, #character h1 {
+  text-align: center;
+}
+
+#character h2 {
+  color: #603813;
+  font-size: 25px;
+}
+
+#character h1 {
+  background: url(../images/lazo-grande.png) center center no-repeat;
+  padding: 30px 60px 20px 60px;
+  height: 100px;
+  font-family: lobster;
+  font-size: 38px !important;
+  color: #fff;
+  margin-top: 0px;
+}
+
+#box-game button {
+  min-width: 100px;
+  margin: 20px;
+  color: #808080;
+  background-color: #ededeb;
+  box-shadow: 0px 5px #efe2d1;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#next {
+  min-width: 100px;
+  margin: 20px;
+  color: #808080;
+  background-color: #ededeb;
+  box-shadow: 0px 5px #efe2d1;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#box-game button:hover {
+  border: none;
+  background-color: #efe2d1;
+  box-shadow: 0px 5px #efe2d1;
+  border: 2px #efe2d1 solid;
+}
+
+#box-game h1 {
+  font-size: 28px;
+  color: #828282;
+
+}
+
+.main-sentence {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.select-div {
+  padding: 0 10px 5px 10px;
+}
+
+#answer-box {
+  border-top: 1px dashed #1e611e;
+  font-size: 24px;
+}
+
+#top-box {
+  padding: 20px 5px 20px 5px;
+}
+
+#col-left {
+  border-right: 1px dashed #1e611e;
+}
+
+#col-left, #col-right {
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.option-title {
+  font-weight: normal;
+  text-align: center;
+  color: #65c0ec;
+}
+
+select {
+  background-color: #e5e5e5;
+  border: 2px solid #e5e5e5;
+  -webkit-border-radius: 22px;
+  line-height: 22px;
+  outline: 0 none;
+  padding: 4px;
+}
+
+.colors {
+color: #B5858D;
+}
+
+#restart {
+  color: #65c0ec;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input[type=text]#answer {
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+.error-title {
+  color: #828282;
+  font-size: 15px;
+}
+
+.definition-word {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #e7646a;
+}
+
+.definition {
+  font-size: 18px;
+  color: #828282;
+}
+
+.rule {
+ font-size: 15px;
+ text-align: center;
+ font-weight: bold;
+ color: #828282;
+}
+
+.hidden {
+  display: none;
+}
+
+#point-bar {
+  margin: 10px;
+  z-index: 2000 !important;
+  position: absolute;
+  top: 0;
+}
+
+.star {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(../images/star.png) no-repeat 0 0;
+  z-index: 2000 !important;
+}
+
+.world {
+  text-align: center;
+  display: block;
+  width: 135px;
+  height: 110px;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  border-radius: 15px;
+}
+
+.world-1 {
+  background: url(../images/world-1-logo.png) center bottom no-repeat;
+  top: 100px;
+  left: 100px;
+}
+
+.world-2 {
+  background: url(../images/world-2-logo.png) center bottom no-repeat;
+  top: 100px;
+  left: 230px;
+}
+
+.world-3 {
+  background: url(../images/world-3-logo.png) center bottom no-repeat;
+  top: 100px;
+  left: 360px;
+}
+
+.world-4 {
+  background: url(../images/world-4-logo.png) center bottom no-repeat;
+  top: 260px;
+  left: 230px;
+}
+
+.world-5 {
+  background: url(../images/world-5-logo.png) center bottom no-repeat;
+  top: 260px;
+  left: 360px;
+}
+
+.world-6 {
+  background: url(../images/world-6-logo.png) center bottom no-repeat;
+  top: 260px;
+  left: 490px;
+}
+
+.world-7 {
+  background: url(../images/world-7-logo.png) center bottom no-repeat;
+  top: 390px;
+  left: 360px;
+}
+
+.world-8 {
+  background: url(../images/world-8-logo.png) center bottom no-repeat;
+  top: 390px;
+  left: 490px;
+}
+
+.world-9 {
+  background: url(../images/world-9-logo.png) center bottom no-repeat;
+  top: 390px;
+  left: 620px;
+}
+
+.world-10 {
+  background: url(../images/world-10-logo.png) center bottom no-repeat;
+  top: 520px;
+  left: 490px;
+}
+
+.world-11 {
+  background: url(../images/world-11-logo.png) center bottom no-repeat;
+  top: 520px;
+  left: 610px;
+}
+
+.world-12 {
+  background: url(../images/world-12-logo.png) center bottom no-repeat;
+  top: 520px;
+  left: 740px;
+}
+
+.done {
+  color: #603813;
+  background-color: rgba(90, 90, 90, 0.2);
+}
+
+#world-menu h1 {
+  font-family: lobster;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.medal {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: url(../images/medal.png) no-repeat 0 0;
+}
+
+.characters {
+  display: inline-block;
+  width: 280px;
+  padding-top: 200px;
+  padding-bottom: 10px;
+  border: 1px solid #b77d29;
+  border-radius: 5px;
+  font-family: lobster;
+  font-size: 40px;
+  color: #603813;
+  text-align: center;
+}
+
+#boy {
+  background: url(../images/boy.png) center center no-repeat #ffad3b;
+  float: right;
+}
+
+#girl {
+  background: url(../images/girl.png) center center no-repeat #ffad3b;
+}
+
+#world-character {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 250px;
+}
+
+.boy-world {
+  background: url(../images/boy-world.png) center center no-repeat;
+}
+
+.girl-world {
+  background: url(../images/girl-world.png) center center no-repeat;
+}
+
+#walking-character {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  z-index: 1000;
+}
+
+.girl-1 {
+  background: url(../images/girl-1.png);
+}
+
+.boy-1 {
+  background: url(../images/boy-1.png);
+}
+
+.girl-2 {
+  background: url(../images/girl-2.png);
+}
+
+.boy-2 {
+  background: url(../images/boy-2.png);
+}
+
+.girl-3 {
+  background: url(../images/girl-3.png);
+}
+
+.boy-3 {
+  background: url(../images/boy-3.png);
+}
+
+.girl-4 {
+  background: url(../images/girl-4.png);
+}
+
+.boy-4 {
+  background: url(../images/boy-4.png);
+}
+
+.girl-5 {
+  background: url(../images/girl-5.png);
+}
+
+.boy-5 {
+  background: url(../images/boy-5.png);
+}
+
+.girl-6 {
+  background: url(../images/girl-6.png);
+}
+
+.boy-6 {
+  background: url(../images/boy-6.png);
+}
+
+.girl-7 {
+  background: url(../images/girl-7.png);
+}
+
+.boy-7 {
+  background: url(../images/boy-7.png);
+}
+
+.girl-8 {
+  background: url(../images/girl-8.png);
+}
+
+.boy-8 {
+  background: url(../images/boy-8.png);
+}
+
+.girl-9 {
+  background: url(../images/girl-9.png);
+}
+
+.boy-9 {
+  background: url(../images/boy-9.png);
+}
+
+.girl-10 {
+  background: url(../images/girl-10.png);
+}
+
+.boy-10 {
+  background: url(../images/boy-10.png);
+}
+
+.girl-11 {
+  background: url(../images/girl-11.png);
+}
+
+.boy-11 {
+  background: url(../images/boy-11.png);
+}
+
+.girl-12 {
+  background: url(../images/girl-12.png);
+}
+
+.boy-12 {
+  background: url(../images/boy-12.png);
+}
+
+#land {
+  width: 1190px;
+  height: 815px;
+  z-index: 100 !important;
+  overflow: hidden;
+}
+
+#history {
+  height: 100%;
+  width: 1200px;
+  z-index: 100;
+  background: url(../images/history.png) no-repeat top left;
+}
+
+#history-text {
+  width: 50%;
+  height: 130px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: justify;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#stop-game {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.toolbar #stop-button {
+  background-image: url('../images/activity-stop.png') !important;
+}
