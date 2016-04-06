@@ -26,7 +26,8 @@ define(function (require) {
         if (level < 8) {
             return words[level][Math.floor(Math.random() * (words[level].length))];
         }else{
-            return words[Math.floor(Math.random()*(12 - 9 + 1)) + 9][Math.floor(Math.random() * (words[level].length))];
+            var ran = Math.floor(Math.random()*(12 - 9 + 1)) + 9;
+            return words[ran][Math.floor(Math.random() * (words[ran].length))];
         }
     }
 
